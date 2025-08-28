@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func CallbackHelp() error {
-	fmt.Println("Welcome to trimRL!!")
-	fmt.Println("this is the list of commands:")
+	fmt.Println("These are the list of commands:")
+	fmt.Println()
 
 	availableCommands := GetCommands()
 	for _, cmd := range availableCommands {
